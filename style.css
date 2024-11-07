@@ -1,14 +1,19 @@
 img {
-    width: 250px;
-    text-align: center;
-    border: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
     border-color: black;
+    border: 8px;
+    border-radius: 50;
+    border-style:solid;
 }
 main{
     background-color: lightgray;
-    margin: 150px;
+    margin: auto;
     padding: 50px;
     border: 10px;
+    border-style: double;
     border-color: black;
 }
 Nav{
@@ -19,7 +24,7 @@ Nav{
     border-color: cornsilk;
     margin: 10px;
 }
-div.a{
+.a{
     text-align: right;
     font-size: 16px;
 }
