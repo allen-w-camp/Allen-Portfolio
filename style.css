@@ -21,11 +21,39 @@ Nav{
     font-size: 20px;
     color: black;
     width: 100%;
-    top: 0;
-    margin-bottom: 10px;
+    margin: 0 auto;
+    margin-bottom: auto;
+    margin-top: auto;
 }
 .a{
     text-align: right;
     padding: 10px;
     font-size: 20px;
+}
+.about {
+    width: calc(100% -6em);
+    background-color: lightblue;
+    color: black;
+    box-shadow: 0 3px 6px -2px black;
+    margin: 2em auto;
+    padding: 1em;
+}
+.project {
+    width: calc(100% -6em);
+    background-color: lightblue;
+    color: black;
+    box-shadow: 0 3px 6px -2px black;
+    margin: 2em auto;
+    padding: 1em;
+}
+footer .media-link{
+    height: 45px;
+}
+footer a {
+    margin: 0 25px;
+}
+main > img {
+    width: 300px;
+    float:right;
+    margin: 10px 0 10px 10px;
 }
