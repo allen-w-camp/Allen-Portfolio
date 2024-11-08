@@ -4,7 +4,7 @@ img {
     margin-right: auto;
     width: 20%;
     border-color: black;
-    border: 8px;
+    border: 3px;
     border-radius: 50;
     border-style:solid;
 }
@@ -18,13 +18,14 @@ main{
 }
 Nav{
     background-color: lightblue;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
-    border: 10px;
-    border-color: cornsilk;
-    margin: 10px;
+    width: 100%;
+    top: 0;
+    margin-bottom: 10px;
 }
 .a{
     text-align: right;
-    font-size: 16px;
+    padding: 10px;
+    font-size: 20px;
 }

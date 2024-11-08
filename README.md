@@ -6,4 +6,6 @@ Created style file.
 Entered infromation about me - both my personal and profession life.
 Set up information for projects with dummy data.
 Entered some information on the home page with basic information.
-Created Contact html file.
+Created Contact and Success html files.
+Adjust formatting.
+Add Contact to links in header.
