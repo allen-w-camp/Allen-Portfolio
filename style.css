@@ -1,4 +1,4 @@
-img {
+projects > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -7,47 +7,72 @@ img {
     border: 3px;
     border-radius: 50;
     border-style:solid;
+    float: left;
 }
 main{
     background-color: lightgray;
-    margin: auto;
     padding: 50px;
     border: 10px;
     border-style: double;
     border-color: black;
+    margin-top: 90px;
 }
 Nav{
+    box-shadow: 0 0 12px -2px;
     background-color: lightblue;
     font-size: 20px;
     color: black;
     width: 100%;
-    margin: 0 auto;
-    margin-bottom: auto;
-    margin-top: auto;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    left: 0;
+    right: 0;
+    height: 80px;
+    padding: 10px;
+    justify-content: space-between;
 }
-.a{
+.a {
     text-align: right;
     padding: 10px;
-    font-size: 20px;
+    margin: 10px
 }
 .about {
     width: calc(100% -6em);
     background-color: lightblue;
     color: black;
     box-shadow: 0 3px 6px -2px black;
-    margin: 2em auto;
+    margin-top: 4em auto;
     padding: 1em;
+    display: inline-block;
 }
 .project {
     width: calc(100% -6em);
     background-color: lightblue;
     color: black;
     box-shadow: 0 3px 6px -2px black;
-    margin: 2em auto;
+    margin: 1em auto;
     padding: 1em;
+    display: block;
 }
 footer .media-link{
     height: 45px;
+}
+footer {
+    background-color: lightblue;
+    color: black;
+    height: 70px;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 12px -2px black;
 }
 footer a {
     margin: 0 25px;
@@ -56,4 +81,69 @@ main > img {
     width: 300px;
     float:right;
     margin: 10px 0 10px 10px;
+    box-shadow: 0 3px 6px -2px black;
+    padding: 1em;
+}
+body {
+    background-color: darkgray;
+}
+button {
+
+}
+.img_school {
+    width: 240px;
+    position:static;
+    padding: 10px;
+    box-shadow: 0 3px 6px -2px black;
+}
+.about-img {
+    width: 20%;
+    height: 20%;
+    float: right;
+    padding: 10px;
+    box-shadow: 0 3px 6px -2px black;
+}
+.img_Margo {
+    width: 200px;
+    position:relative;
+    padding: 10px;
+    box-shadow: 0 3px 6px -2px black;
+    display: inline-block;
+    align-items: center;
+}
+section {
+    box-shadow: 0 3px 6px -2px black;
+    margin: 10px;
+    padding: 25px;
+    background-color: lightblue;
+}
+h3 {
+    font-size: 25px;
+}
+h1 {
+    font-size: 40px;
+}
+.img_MS {
+    width: 350px;
+    position:static;
+    padding: 10px;
+    box-shadow: 0 3px 6px -2px black;
+    display: inline-block;
+    align-items: center;
+}
+.img_BH {
+    position: static;
+    padding: 10px;
+    box-shadow: 0 3px 6px -2px black;
+    display: inline-block;
+}
+.img_post {
+    width: 200px;
+    position: static;
+    padding: 10px;
+    box-shadow: 0 3px 6px -2px black;
+    display: block;
+}
+footer {
+    margin: 0;
 }
